@@ -15,8 +15,10 @@ BloodyPuddlesGameScript() {
     WaitForRound(9)             ; Round 9
     Upgrade(1186,193,0,0,1)     ; Sub: 201 -> 202
 
-    WaitForRound(1)             ; Round 11
+    WaitForRound(2)             ; Round 12
     Upgrade(1186,193,0,0,1)     ; Sub: 202 -> 203
+    
+    WaitForRound(3)             ; Round 13
     Place("sniper",835,180)     ; Place Sniper
     Targeting(835,180,3)        ; Sniper: First -> Strong
 

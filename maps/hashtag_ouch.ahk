@@ -14,7 +14,7 @@ HashtagOuchGameScript() {
     WaitForRound(7)             ; Round 7
     Upgrade(840,571,2,0,0)      ; Boat: 010 -> 210
 
-    WaitForRound(4)             ; Round 14
+    WaitForRound(5)             ; Round 15
     Upgrade(840,571,1,1,0)      ; Boat: 210 -> 320
 
     WaitForRound(6)             ; Round 16

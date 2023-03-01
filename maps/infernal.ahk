@@ -30,12 +30,12 @@ InfernalGameScript() {
     WaitForRound(5)             ; Round 15
     Upgrade(1194,268,0,0,1)     ; Sub 1: 202 -> 203
 
-    WaitForRound(0)             ; Round 20
-    Upgrade(1194,268,0,0,1)     ; Sub 1: 203 -> 204
-
     WaitForRound(1)             ; Round 21
     Place("sub",1195,176)       ; Place Sub 2
     Upgrade(1195,176,1,0,0)     ; Sub 2: 000 -> 100
+
+    WaitForRound(2)             ; Round 22
+    Upgrade(1194,268,0,0,1)     ; Sub 1: 203 -> 204
 
     WaitForRound(3)             ; Round 23
     Upgrade(1195,176,1,0,1)     ; Sub 2: 100 -> 201
@@ -48,12 +48,13 @@ InfernalGameScript() {
 
     WaitForRound(1)             ; Round 31
     Upgrade(1195,176,0,0,1)     ; Sub 2: 203 -> 204
-    Upgrade(472,277,0,0,2)      ; Dart: 000 -> 002
-
-    WaitForRound(2)             ; Round 32
-    Upgrade(472,277,0,1,1)      ; Dart: 002 -> 013
+    
+    WaitForRound(3)             ; Round 33
+    Upgrade(472,277,0,1,3)      ; Dart: 000 -> 013
 
     WaitForRound(5)             ; Round 35
     Upgrade(472,277,0,1,1)      ; Dart: 013 -> 024
-    Upgrade(471,789,0,1,0)      ; Boat: 022 -> 032
+    
+	WaitForRound(7)				; Round 37
+	Upgrade(471,789,0,1,0)      ; Boat: 022 -> 032
 }

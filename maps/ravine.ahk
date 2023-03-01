@@ -12,11 +12,11 @@ RavineGameScript() {
     Place("ace",316,735)        ; Place Ace 1
 
     WaitForRound(8)             ; Round 8
-    Upgrade(316,735,0,0,2)      ; Ace 1: 000 -> 002
+    Upgrade(316,735,0,0,1)      ; Ace 1: 000 -> 001
     Targeting(316,735,3)        ; Ace 1: Centered Path -> Figure Infinite
 
-    WaitForRound(4)             ; Round 14
-    Upgrade(315,735,0,0,1)      ; Ace 1: 002 -> 003
+    WaitForRound(5)             ; Round 15
+    Upgrade(315,735,0,0,2)      ; Ace 1: 001 -> 003
 
     WaitForRound(6)             ; Round 16
     Upgrade(315,735,2,0,0)      ; Ace 1: 003 -> 203
@@ -40,7 +40,7 @@ RavineGameScript() {
     WaitForRound(9)             ; Round 29
     Upgrade(453,835,0,0,2)      ; Ace 2: 000 -> 002
 
-    WaitForRound(3)             ; Round 33
+    WaitForRound(4)             ; Round 34
     Upgrade(453,835,0,0,1)      ; Ace 2: 002 -> 003
 
     WaitForRound(5)             ; Round 35

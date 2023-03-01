@@ -4,7 +4,7 @@ FloodedValleyGameScript() {
     WaitForRound(2)             ; Round 2
     Place("hero",529,492)       ; Place Hero (Ben)
 
-    WaitForRound(3)             ; Round 3
+    WaitForRound(4)             ; Round 3
     Place("boat",1075,657)      ; Place Boat 1
 
     WaitForRound(6)             ; Round 6
